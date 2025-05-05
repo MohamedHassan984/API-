@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Trello API Suite">
+    <test name="Board Tests">
+        <classes>
+            <class name="CreateBoardTest"/>
+            <class name="GetBoardTest"/>
+            <class name="CreateListTest"/>
+            <class name="PutListTest"/>
+            <class name="GeListTest"/>
+            <class name="CreateCardTest"/>
+            <class name="GetCardTest"/>
+            <class name="CreateCheckListTest"/>
+            <class name="CreateCheckListTwoTest"/>
+            <class name="GetChecklistTest"/>
+            <class name="PutChecklistTest"/>
+            <class name="CreateLabelTest"/>
+            <class name="PutLabelTest"/>
+            <class name="GetLabelTest"/>
+            <class name="DeleteCheckListTest"/>
+            <class name="VerifyChecklistTest"/>
+            <class name="DeleteLabelTest"/>
+            <class name="VerifyLabelTest"/>
+            <class name="DeleteCardTest"/>
+            <class name="VerifyCardTest"/>
+            <class name="DeleteBoardTest"/>
+            <class name="VerifyBoardTest"/>
+        </classes>
+    </test>
+</suite>
